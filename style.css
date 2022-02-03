@@ -302,7 +302,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 2em;
+    width: 100%;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -361,6 +362,20 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/* Modified CSS */
+
+.dark-logo{
+    background-color: white;
+    width: 25em;
+    height: 25em;
+    border-radius: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modified CSS */
 
 @media (min-width: 768px) {
     .site-navigation {
