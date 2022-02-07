@@ -933,106 +933,144 @@ h4 {
 
 /**************** Modified CSS *****************/
 
-/***** BOTH ****/
+    /***** BOTH ****/
 
-a, p, q, h1, h2, h3, h4, h5, h6{
-    font-family: 'Roboto', sans-serif !important;
-}
-.navbar-expand-lg .navbar-nav-scroll{
-    width: 100% !important;
-    justify-content: end !important;
-}
+        /***** HEADER ****/
 
-.parallax-behind{
-    z-index: 1 !important;
-}
+        header{
+            margin: auto !important;
+            padding: 1em !important;
+            max-width: 992px !important;
+        }
+        @media (max-width: 767px) {
+            header {
+                padding: 0 !important;
+            }
+        }
 
-.btn-group-lg>.btn, .btn-lg{
-    background-color: #f3976c !important;
-}
+        nav li{
+            padding: 0.6em 1em;
+        }
 
-.item-centered{
-    width: 100% !important;
-    display: flex !important;
-    justify-content: center !important;
-    margin: auto !important;
-}
+        nav li:hover{
+            background-color: #f3976c78;
+            border-radius: 5em;
+            transition: 300ms ease-in-out;
+        }
 
-.item-centered-column{
-    width: 100% !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    margin: auto !important;
-}
+        .navbar-nav-scroll{
+            --bs-scroll-height: 120px !important;
+        }
 
-.margin-0{
-    margin: 0 !important;
-}
+        /***** HEADER ****/
 
-.margin-1{
-    margin: 1em !important;
-}
+        /***** MAIN ****/
 
-.padding-1{
-    padding: 1 !important;
-}
+        a, p, q, h1, h2, h3, h4, h5, h6{
+            font-family: 'Roboto', sans-serif !important;
+        }
+        .navbar-expand-lg .navbar-nav-scroll{
+            width: 100% !important;
+            justify-content: end !important;
+        }
 
-.button-style{
-    color: #303030 !important;
-    border-radius: 18em !important;
-    font-size: 1.2rem !important;
-}
+        .parallax-behind{
+            z-index: 1 !important;
+        }
 
-p, q{
-    margin: 1em !important;
-}
+        .btn-group-lg>.btn, .btn-lg{
+            background-color: #f3976c !important;
+        }
 
-p{
-    font-size: 0.75rem;
-}
-.important-txt{
-    font-size: 1.3rem;
-}
+        .item-centered{
+            width: 100% !important;
+            display: flex !important;
+            justify-content: center !important;
+            margin: auto !important;
+        }
 
-.background-dark{
-    background-color: #303030;
-    border-radius: 1em;
-}
+        .item-centered-column{
+            width: 100% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            margin: auto !important;
+        }
 
-h2{
-    font-weight: 400 !important;
-    font-size: 1.35rem !important;
-}
+        .margin-0{
+            margin: 0 !important;
+        }
 
-/***** BOTH ****/
+        .margin-1{
+            margin: 1em !important;
+        }
 
-/***** MAIN ****/
-/* BLOC 1 */
-.dark-logo{
-    background-color: white;
-    width: 25em !important;
-    height: 20em;
-    display: flex;
-    border-radius: 1em;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.dark-logo h1{
-    font-size: 2rem !important;
-    margin: 0.5em !important;
-}
-/* BLOC 1 */
+        .padding-1{
+            padding: 1em !important;
+        }
 
-/* BLOC 4 */
+        .button-style{
+            color: #303030 !important;
+            border-radius: 18em !important;
+            font-size: 1.2rem !important;
+        }
 
-.card{
-    border: none !important;
-}
-/* BLOC 4 */
+        p, q{
+            margin: 1em !important;
+        }
 
-/***** MAIN ****/
+        p{
+            font-size: 0.75rem;
+        }
+        .important-txt{
+            font-size: 1.3rem;
+        }
+
+        .background-dark{
+            background-color: #303030;
+            border-radius: 1em;
+        }
+
+        h2{
+            font-weight: 400 !important;
+            font-size: 1.35rem !important;
+        }
+
+        /***** MAIN ****/
+
+    /***** BOTH ****/
+
+/***** INDEX ****/
+
+    /* BLOC 1 */
+    .logo-main{
+        background-color: white;
+        width: 25em !important;
+        display: flex;
+        border-radius: 1em;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-main h1{
+        font-size: 2rem !important;
+        margin: 0.5em !important;
+    }
+
+    .img-fluid {
+        max-width: 90% !important;
+    }
+
+    /* BLOC 1 */
+
+    /* BLOC 4 */
+
+    .card{
+        border: none !important;
+    }
+    /* BLOC 4 */
+
+/***** INDEX ****/
 
 /***** CONTACT ****/
 
