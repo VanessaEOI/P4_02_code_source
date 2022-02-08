@@ -992,7 +992,7 @@ h4 {
         }
 
         p{
-            font-size: 0.75rem;
+            font-size: 1em;
         }
 
         .quote{
@@ -1026,11 +1026,11 @@ h4 {
         }
 
         @media (max-width: 576px) {
-            a, q, h3, label, button {
+            a, p, q, h3, label, button {
                 font-size: small !important;
             }
 
-            h1, h2, h4, h5, h6{
+            h2, h4, h5, h6{
                 font-size: medium !important;
             }
 
@@ -1070,9 +1070,9 @@ h4 {
             padding: 1em !important;
         }
 
-        li{
+        footer li{
             list-style-type: none;
-            padding: 1em !important;
+            padding: 0.5em !important;
         }
 
         @media (max-width: 270px) {
