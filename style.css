@@ -283,9 +283,6 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
 
 .navbar {
     margin-bottom: 0;
@@ -295,7 +292,6 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -326,7 +322,6 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -511,27 +506,6 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
-
-
 h1,
 h2,
 h3,
@@ -551,26 +525,13 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -579,7 +540,6 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
     font-family: "Open Sans";
 }
 
@@ -588,7 +548,6 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
     font-weight: 700;
 }
 
@@ -598,12 +557,10 @@ p {
 }
 
 h2 {
-    font-size: 22px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -968,6 +925,7 @@ h4 {
 
         a, p, q, h1, h2, h3, h4, h5, h6{
             font-family: 'Roboto', sans-serif !important;
+            text-align: center  ;
         }
         .navbar-expand-lg .navbar-nav-scroll{
             width: 100% !important;
@@ -1022,8 +980,10 @@ h4 {
         p{
             font-size: 0.75rem;
         }
-        .important-txt{
-            font-size: 1.3rem;
+
+        .quote{
+            margin: auto;
+            padding: 0 !important;
         }
 
         .background-dark{
@@ -1034,6 +994,31 @@ h4 {
         h2{
             font-weight: 400 !important;
             font-size: 1.35rem !important;
+        }
+
+        @media (max-width: 576px) {
+            a, q, label, button {
+                font-size: small !important;
+            }
+
+            h1, h2, h3, h4, h5, h6{
+                font-size: medium !important;
+            }
+
+            .background-dark{
+                    padding: 0.5em 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .voffset-lg {
+                display: flex!important;
+                flex-direction: column;
+                align-items: center;
+            }
+            .col-sm-4{
+                width: 100% !important;
+            }
         }
 
         /***** MAIN ****/
@@ -1060,6 +1045,14 @@ h4 {
     .img-fluid {
         max-width: 90% !important;
     }
+
+    @media (max-width: 576px) {
+        .btn {
+            max-width: 73%;
+            font-size: small!important;
+        }
+    }
+
 
     /* BLOC 1 */
 
