@@ -625,7 +625,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -996,12 +996,20 @@ h4 {
             font-size: 1.35rem !important;
         }
 
+        .row{
+            margin: 1em auto !important;
+        }
+
+        .container{
+            padding: 1em !important;
+        }
+
         @media (max-width: 576px) {
-            a, q, label, button {
+            a, q, h3, label, button {
                 font-size: small !important;
             }
 
-            h1, h2, h3, h4, h5, h6{
+            h1, h2, h4, h5, h6{
                 font-size: medium !important;
             }
 
@@ -1022,6 +1030,37 @@ h4 {
         }
 
         /***** MAIN ****/
+
+        /***** FOOTER ****/
+        
+        .social span{
+            color: #383838 !important;
+        }
+        .social span:hover{
+            color: #000000 !important;
+            text-shadow: rgba(255, 255, 255, 0.733) 0 0 0.4em;
+        }
+
+        footer ul{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 1em auto;
+            width: 50%;
+            padding: 1em !important;
+        }
+
+        li{
+            list-style-type: none;
+            padding: 1em !important;
+        }
+
+        @media (max-width: 270px) {
+            .social span{
+                font-size: 1.5em !important;
+            }
+        }
+
+        /***** FOOTER ****/
 
     /***** BOTH ****/
 
@@ -1060,12 +1099,26 @@ h4 {
 
     .card{
         border: none !important;
+        background-color: transparent !important;
     }
     /* BLOC 4 */
 
 /***** INDEX ****/
 
 /***** CONTACT ****/
+
+.col-sm-12{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scrollToTop{
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+    z-index: 1;
+}
 
 /***** CONTACT ****/
 
