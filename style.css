@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
+    opacity: 50%;
 }
 
 .b-parallax {
@@ -628,6 +629,10 @@ h4 {
     color: #FFF!important;
 }
 
+.tc-black{
+    color: #000000 !important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -927,6 +932,15 @@ h4 {
             font-family: 'Roboto', sans-serif !important;
             text-align: center  ;
         }
+
+        h3{
+            font-size: 1em !important;
+        }
+
+        .text-orange{
+            color: #F3976C !important;
+        }
+
         .navbar-expand-lg .navbar-nav-scroll{
             width: 100% !important;
             justify-content: end !important;
@@ -1000,8 +1014,15 @@ h4 {
             margin: 1em auto !important;
         }
 
+        .row-contact{
+            display: flex !important;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap !important;
+        }
+
         .container{
-            padding: 1em !important;
+            padding: 2em 0.5em !important;
         }
 
         @media (max-width: 576px) {
@@ -1101,6 +1122,11 @@ h4 {
         border: none !important;
         background-color: transparent !important;
     }
+
+    .card-text{
+        padding: 0 !important;
+    }
+
     /* BLOC 4 */
 
 /***** INDEX ****/
