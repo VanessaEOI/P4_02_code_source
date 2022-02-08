@@ -1121,6 +1121,7 @@ h4 {
     .card{
         border: none !important;
         background-color: transparent !important;
+        border-radius: unset !important;
     }
 
     .card-text{
