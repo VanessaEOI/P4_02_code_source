@@ -1025,6 +1025,11 @@ h4 {
             padding: 2em 0.5em !important;
         }
 
+        img {
+             max-width: 100%;
+             height: auto;
+        }
+
         @media (max-width: 576px) {
             a, p, q, h3, label, button {
                 font-size: small !important;
