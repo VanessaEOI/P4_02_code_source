@@ -913,10 +913,6 @@ h4 {
             transition: 300ms ease-in-out;
         }
 
-        .navbar-nav-scroll{
-            --bs-scroll-height: 120px !important;
-        }
-
         /***** HEADER ****/
 
         /***** MAIN ****/
@@ -934,7 +930,7 @@ h4 {
             color: #F3976C !important;
         }
 
-        .navbar-expand-lg .navbar-nav-scroll{
+        .navbar-expand-lg .navbar-collapse{
             width: 100% !important;
             justify-content: end !important;
         }
