@@ -1027,6 +1027,9 @@ h4 {
             .background-dark{
                     padding: 0.5em 0;
             }
+            .navbar-brand img{
+                width: auto !important;
+            }
         }
 
         @media (max-width: 768px) {
